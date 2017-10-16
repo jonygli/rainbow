@@ -9,8 +9,8 @@
     "precommit": "lint-staged"
   },
   "lint-staged": {
-    "*.js": [
-      "prettier --single-quote --write --list-different",
+    "*.ts": [
+      "prettier --single-quote --write",
       "git add"
     ]
   },
