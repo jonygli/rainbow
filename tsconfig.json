@@ -2,10 +2,11 @@
     "compilerOptions": {
         "module": "commonjs",
         "target": "es5",
-        "allowJs": true,
+        // "allowJs": true,
+        "declaration": true, 
         "outDir": "dist",
         "noImplicitAny": false,
-        "sourceMap": false,
+        "sourceMap": true,
         "noEmitOnError": true,
         "strictNullChecks": true,
         "experimentalDecorators": true
